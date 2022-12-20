@@ -1,4 +1,13 @@
 .container {
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
+}
+
+#editor-container, #preview-container {
+    width: 45%;
+}
+
+img {
+    margin: 0 30px;
+    max-width: 300px;
 }
